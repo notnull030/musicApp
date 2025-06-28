@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/xeicon.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preload" as="image" href="/img/profile.jpg">
+  <!-- js -->
+  <script src="/js/main.js"></script>
+  <title>My Music App</title>
+</head>
+
+<body>
+  <div class="app">
+    <div class="wrap">
+      <aside class="left-panel">
+        <h1 class="logo">
+          <span>M</span><span>y</span>&nbsp;<span>M</span><span>u</span><span>s</span><span>i</span><span>c</span>&nbsp;
+          <span>A</span><span>p</span><span>p</span>
+        </h1>
+
+        <nav>
+          <span class="tit">MY MENU</span>
+          <a href="javascript:void(0)" class="active">
+            <i class="xi-home"></i>
+            <span>dashboard</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Home</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Search</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Explore</span>
+          </a>
+        </nav>
+        <nav>
+          <span class="tit">My Songs</span>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Recently Played</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>My Playlist</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Downloaded</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Offline Mode</span>
+          </a>
+        </nav>
+        <nav>
+          <span class="tit">Favorite</span>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Liked Songs</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Albums</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Artists</span>
+          </a>
+          <a href="javascript:void(0)">
+            <i class="xi-home"></i>
+            <span>Genres</span>
+          </a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <div class="top-wrap">
+          <div class="search">
+            <i class="xi-search"></i>
+            <input type="text" placeholder="Search">
+          </div>
+          <div class="profile">
+            <label class="theme-switch">
+              <input type="checkbox" id="toggle-theme">
+              <span class="slider"></span>
+            </label>
+            <div class="img-wrap">
+              <img src="/img/profile.jpg" alt="profile-img">
+            </div>
+            <span>pooding</span>
+          </div>
+        </div>
+        <section class="main-music">
+          <h2 class="heading1">Release for you</h2>
+          <div class="right">
+            <div class="img-wrap">
+              <img src="/img/music/armageddon.webp" alt="">
+            </div>
+            <ul class="music-list">
+              <li class="active">
+                <button type="button" class="play">
+                  <i class="xi-pause custom-icon"></i>
+                </button>
+                <button type="button" class="more">
+                  <i class="xi-heart custom-icon"></i>
+                </button>
+                <div class="music-wrap">
+                  <span class="music">Armageddon</span>
+                  <span class="singer">aespa</span>
+                </div>
+                <button type="button" class="more">
+                  <i class="xi-ellipsis-h custom-icon"></i>
+                </button>
+                <span class="time">2:10</span>
+              </li>
+              <li>
+                <button type="button" class="play">
+                  <i class="xi-play custom-icon"></i>
+                </button>
+                <button type="button" class="more">
+                  <i class="xi-heart-o custom-icon"></i>
+                </button>
+                <div class="music-wrap">
+                  <span class="music">Drowning</span>
+                  <span class="singer">WOODZ</span>
+                </div>
+                <button type="button" class="more">
+                  <i class="xi-ellipsis-h custom-icon"></i>
+                </button>
+                <span class="time">3:10</span>
+              </li>
+              <li>
+                <button type="button" class="play">
+                  <i class="xi-play custom-icon"></i>
+                </button>
+                <button type="button" class="more">
+                  <i class="xi-heart-o custom-icon"></i>
+                </button>
+                <div class="music-wrap">
+                  <span class="music">Episode</span>
+                  <span class="singer">이무진</span>
+                </div>
+                <button type="button" class="more">
+                  <i class="xi-ellipsis-h custom-icon"></i>
+                </button>
+                <span class="time">3:02</span>
+              </li>
+              <li>
+                <button type="button" class="play">
+                  <i class="xi-play custom-icon"></i>
+                </button>
+                <button type="button" class="more">
+                  <i class="xi-heart-o custom-icon"></i>
+                </button>
+                <div class="music-wrap">
+                  <span class="music">HANDS UP</span>
+                  <span class="singer">MEOVV(미야오)</span>
+                </div>
+                <button type="button" class="more">
+                  <i class="xi-ellipsis-h custom-icon"></i>
+                </button>
+                <span class="time">3:50</span>
+              </li>
+              <li>
+                <button type="button" class="play">
+                  <i class="xi-play custom-icon"></i>
+                </button>
+                <button type="button" class="more">
+                  <i class="xi-heart-o custom-icon"></i>
+                </button>
+                <div class="music-wrap">
+                  <span class="music">HOT</span>
+                  <span class="singer">LE SSERAFIM(르세라핌)</span>
+                </div>
+                <button type="button" class="more">
+                  <i class="xi-ellipsis-h custom-icon"></i>
+                </button>
+                <span class="time">2:10</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="sub-music">
+          <h2 class="heading2">Recently Played</h2>
+          <ul>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/dangerously.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">Dangerously</span>
+                <span class="singer">Charlie Puth(찰리 푸스)</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/supernova.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">supernova</span>
+                <span class="singer">aespa</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/Permission to Dance.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">Permission to Dance</span>
+                <span class="singer">BTS</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/With you.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">With you</span>
+                <span class="singer">Crush</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/Yet To Come.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">Yet To Come</span>
+                <span class="singer">BTS</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/whiplash.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">whiplash</span>
+                <span class="singer">aespa</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/ON.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">ON</span>
+                <span class="singer">BTS</span>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/spicy.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">spicy</span>
+                <span class="singer">aespa</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <aside class="right-panel">
+        <section class="section1">
+          <h2 class="heading2">Friends Activity</h2>
+          <ul>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/photograph.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">photograph</span>
+                <span class="singer">Ed Sheeran</span>
+              </div>
+              <!-- active -->
+              <span class="icon">
+                <i>icon</i>
+              </span>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/hug me.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">hug me</span>
+                <span class="singer">Crush</span>
+              </div>
+              <!-- active -->
+              <span class="icon">
+                <i>icon</i>
+              </span>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/미워.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">미워</span>
+                <span class="singer">Crush</span>
+              </div>
+              <!-- active -->
+              <span class="icon">
+                <i>icon</i>
+              </span>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/drama.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">drama</span>
+                <span class="singer">aespa</span>
+              </div>
+              <!-- active -->
+              <span class="icon">
+                <i>icon</i>
+              </span>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/Dynamite.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">Dynamite</span>
+                <span class="singer">aespa</span>
+              </div>
+              <!-- active -->
+              <span class="icon">
+                <i>icon</i>
+              </span>
+            </li>
+          </ul>
+        </section>
+        <section class="section2">
+          <h2 class="heading2">Your Activity</h2>
+          <ul>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/up.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">UP(KARINA Solo)</span>
+                <span class="singer">aespa</span>
+              </div>
+              <button type="button" class="more">
+                <i class="xi-ellipsis-h custom-icon"></i>
+              </button>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/쩔어.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">쩔어</span>
+                <span class="singer">BTN</span>
+              </div>
+              <button type="button" class="more">
+                <i class="xi-ellipsis-h custom-icon"></i>
+              </button>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/봄날.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">봄날</span>
+                <span class="singer">BTS</span>
+              </div>
+              <button type="button" class="more">
+                <i class="xi-ellipsis-h custom-icon"></i>
+              </button>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/작은것들을 위한 시.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">작은것들을 위한 시</span>
+                <span class="singer">BTS</span>
+              </div>
+              <button type="button" class="more">
+                <i class="xi-ellipsis-h custom-icon"></i>
+              </button>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="/img/music/shape of you.webp" alt="">
+              </div>
+              <div class="txt-wrap">
+                <span class="music">shape of you</span>
+                <span class="singer">Ed Sheeran</span>
+              </div>
+              <button type="button" class="more">
+                <i class="xi-ellipsis-h custom-icon"></i>
+              </button>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+    <footer class="player">
+      <div class="left">
+        <div class="img-wrap">
+          <img src="/img/music/armageddon.webp" alt="">
+        </div>
+        <div class="txt-wrap">
+          <span class="music">armageddon</span>
+          <span class="singer">aespa</span>
+        </div>
+      </div>
+      <div class="control">
+        <button type="button">
+          <i class="xi-backward"></i>
+        </button>
+        <button type="button">
+          <i class="xi-step-backward"></i>
+        </button>
+        <button type="button" id="play">
+          <!-- <i class="xi-play"></i> -->
+          <i class="xi-pause"></i>
+        </button>
+        <button type="button">
+          <i class="xi-step-forward"></i>
+        </button>
+        <button type="button">
+          <i class="xi-forward"></i>
+        </button>
+      </div>
+      <div class="right">
+        <div class="volume">
+          <button type="button">
+            <i class="xi-volume-up custom-icon"></i>
+          </button>
+          <input type="range">
+        </div>
+        <button type="button">
+          <i class="xi-heart-o custom-icon"></i>
+        </button>
+        <button type="button">
+          <i class="xi-message-o custom-icon"></i>
+        </button>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
