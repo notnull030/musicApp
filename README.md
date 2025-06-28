@@ -17,6 +17,7 @@ html/      👉 메인 화면
 css/       👉 스타일
 js/        👉 자바스크립트 기능
 
+---
 
-### 실행 방법 / How to Run
+## 실행 방법 / How to Run
 git clone https://github.com/notnull030/musicApp.git
